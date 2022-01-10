@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4A8E2872782AF1500051D23 /* LogInAndSignUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A8E2772782AF1300051D23 /* LogInAndSignUpApp.swift */; };
+		D4A8E2882782AF1500051D23 /* LogInAndSignUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A8E2772782AF1300051D23 /* LogInAndSignUpApp.swift */; };
+		D4A8E2892782AF1500051D23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A8E2782782AF1300051D23 /* ContentView.swift */; };
+		D4A8E28A2782AF1500051D23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A8E2782782AF1300051D23 /* ContentView.swift */; };
+		D4A8E28B2782AF1500051D23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4A8E2792782AF1500051D23 /* Assets.xcassets */; };
+		D4A8E28C2782AF1500051D23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4A8E2792782AF1500051D23 /* Assets.xcassets */; };
+		D4A8E2992782BA5300051D23 /* Colour.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4A8E2982782BA5300051D23 /* Colour.xcassets */; };
+		D4A8E29A2782BA5300051D23 /* Colour.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4A8E2982782BA5300051D23 /* Colour.xcassets */; };
+		D4A8E29C2782D47200051D23 /* customView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A8E29B2782D47200051D23 /* customView.swift */; };
+		D4A8E29D2782D47200051D23 /* customView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A8E29B2782D47200051D23 /* customView.swift */; };
+		D4A8E2A0278307AA00051D23 /* LogInAndSignUp--iOS--Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4A8E29F278305FB00051D23 /* LogInAndSignUp--iOS--Info.plist */; };
+		D4A8E2A1278307AB00051D23 /* LogInAndSignUp--iOS--Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4A8E29F278305FB00051D23 /* LogInAndSignUp--iOS--Info.plist */; };
+		D4A8E2A2278307CE00051D23 /* DancingScript-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4A8E29E2783030500051D23 /* DancingScript-Bold.ttf */; };
+		D4A8E2A3278307CF00051D23 /* DancingScript-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4A8E29E2783030500051D23 /* DancingScript-Bold.ttf */; };
+		D4A8E2A52783319400051D23 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A8E2A42783319400051D23 /* SignUpView.swift */; };
+		D4A8E2A62783319400051D23 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A8E2A42783319400051D23 /* SignUpView.swift */; };
+		D4B5A211278BE70700CC879C /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4B5A210278BE70700CC879C /* Oswald-Regular.ttf */; };
+		D4B5A212278BE70700CC879C /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4B5A210278BE70700CC879C /* Oswald-Regular.ttf */; };
+		D4B5A214278BE70F00CC879C /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4B5A213278BE70F00CC879C /* Pacifico-Regular.ttf */; };
+		D4B5A215278BE70F00CC879C /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4B5A213278BE70F00CC879C /* Pacifico-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D4A8E2772782AF1300051D23 /* LogInAndSignUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInAndSignUpApp.swift; sourceTree = "<group>"; };
+		D4A8E2782782AF1300051D23 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D4A8E2792782AF1500051D23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4A8E27E2782AF1500051D23 /* LogInAndSignUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogInAndSignUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A8E2842782AF1500051D23 /* LogInAndSignUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogInAndSignUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A8E2862782AF1500051D23 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		D4A8E2982782BA5300051D23 /* Colour.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colour.xcassets; sourceTree = "<group>"; };
+		D4A8E29B2782D47200051D23 /* customView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customView.swift; sourceTree = "<group>"; };
+		D4A8E29E2783030500051D23 /* DancingScript-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-Bold.ttf"; sourceTree = "<group>"; };
+		D4A8E29F278305FB00051D23 /* LogInAndSignUp--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "LogInAndSignUp--iOS--Info.plist"; sourceTree = "<group>"; };
+		D4A8E2A42783319400051D23 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		D4B5A210278BE70700CC879C /* Oswald-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Regular.ttf"; sourceTree = "<group>"; };
+		D4B5A213278BE70F00CC879C /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4A8E27B2782AF1500051D23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A8E2812782AF1500051D23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4A8E2712782AF1300051D23 = {
+			isa = PBXGroup;
+			children = (
+				D4A8E29F278305FB00051D23 /* LogInAndSignUp--iOS--Info.plist */,
+				D4A8E2762782AF1300051D23 /* Shared */,
+				D4A8E2852782AF1500051D23 /* macOS */,
+				D4A8E27F2782AF1500051D23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4A8E2762782AF1300051D23 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D4A8E2772782AF1300051D23 /* LogInAndSignUpApp.swift */,
+				D4A8E2782782AF1300051D23 /* ContentView.swift */,
+				D4A8E2A42783319400051D23 /* SignUpView.swift */,
+				D4A8E29B2782D47200051D23 /* customView.swift */,
+				D4B5A20F278BE6EE00CC879C /* Fonts */,
+				D4A8E2792782AF1500051D23 /* Assets.xcassets */,
+				D4A8E2982782BA5300051D23 /* Colour.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		D4A8E27F2782AF1500051D23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4A8E27E2782AF1500051D23 /* LogInAndSignUp.app */,
+				D4A8E2842782AF1500051D23 /* LogInAndSignUp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4A8E2852782AF1500051D23 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				D4A8E2862782AF1500051D23 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		D4B5A20F278BE6EE00CC879C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D4A8E29E2783030500051D23 /* DancingScript-Bold.ttf */,
+				D4B5A210278BE70700CC879C /* Oswald-Regular.ttf */,
+				D4B5A213278BE70F00CC879C /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4A8E27D2782AF1500051D23 /* LogInAndSignUp (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4A8E28F2782AF1500051D23 /* Build configuration list for PBXNativeTarget "LogInAndSignUp (iOS)" */;
+			buildPhases = (
+				D4A8E27A2782AF1500051D23 /* Sources */,
+				D4A8E27B2782AF1500051D23 /* Frameworks */,
+				D4A8E27C2782AF1500051D23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LogInAndSignUp (iOS)";
+			productName = "LogInAndSignUp (iOS)";
+			productReference = D4A8E27E2782AF1500051D23 /* LogInAndSignUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4A8E2832782AF1500051D23 /* LogInAndSignUp (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4A8E2922782AF1500051D23 /* Build configuration list for PBXNativeTarget "LogInAndSignUp (macOS)" */;
+			buildPhases = (
+				D4A8E2802782AF1500051D23 /* Sources */,
+				D4A8E2812782AF1500051D23 /* Frameworks */,
+				D4A8E2822782AF1500051D23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LogInAndSignUp (macOS)";
+			productName = "LogInAndSignUp (macOS)";
+			productReference = D4A8E2842782AF1500051D23 /* LogInAndSignUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4A8E2722782AF1300051D23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					D4A8E27D2782AF1500051D23 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					D4A8E2832782AF1500051D23 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = D4A8E2752782AF1300051D23 /* Build configuration list for PBXProject "LogInAndSignUp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4A8E2712782AF1300051D23;
+			productRefGroup = D4A8E27F2782AF1500051D23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4A8E27D2782AF1500051D23 /* LogInAndSignUp (iOS) */,
+				D4A8E2832782AF1500051D23 /* LogInAndSignUp (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4A8E27C2782AF1500051D23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B5A211278BE70700CC879C /* Oswald-Regular.ttf in Resources */,
+				D4A8E28B2782AF1500051D23 /* Assets.xcassets in Resources */,
+				D4A8E2A2278307CE00051D23 /* DancingScript-Bold.ttf in Resources */,
+				D4B5A214278BE70F00CC879C /* Pacifico-Regular.ttf in Resources */,
+				D4A8E2A0278307AA00051D23 /* LogInAndSignUp--iOS--Info.plist in Resources */,
+				D4A8E2992782BA5300051D23 /* Colour.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A8E2822782AF1500051D23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B5A212278BE70700CC879C /* Oswald-Regular.ttf in Resources */,
+				D4A8E28C2782AF1500051D23 /* Assets.xcassets in Resources */,
+				D4A8E2A3278307CF00051D23 /* DancingScript-Bold.ttf in Resources */,
+				D4B5A215278BE70F00CC879C /* Pacifico-Regular.ttf in Resources */,
+				D4A8E2A1278307AB00051D23 /* LogInAndSignUp--iOS--Info.plist in Resources */,
+				D4A8E29A2782BA5300051D23 /* Colour.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4A8E27A2782AF1500051D23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4A8E2892782AF1500051D23 /* ContentView.swift in Sources */,
+				D4A8E29C2782D47200051D23 /* customView.swift in Sources */,
+				D4A8E2A52783319400051D23 /* SignUpView.swift in Sources */,
+				D4A8E2872782AF1500051D23 /* LogInAndSignUpApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A8E2802782AF1500051D23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4A8E28A2782AF1500051D23 /* ContentView.swift in Sources */,
+				D4A8E29D2782D47200051D23 /* customView.swift in Sources */,
+				D4A8E2A62783319400051D23 /* SignUpView.swift in Sources */,
+				D4A8E2882782AF1500051D23 /* LogInAndSignUpApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D4A8E28D2782AF1500051D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4A8E28E2782AF1500051D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D4A8E2902782AF1500051D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LogInAndSignUp--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prasanna.LogInAndSignUp;
+				PRODUCT_NAME = LogInAndSignUp;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4A8E2912782AF1500051D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LogInAndSignUp--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prasanna.LogInAndSignUp;
+				PRODUCT_NAME = LogInAndSignUp;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4A8E2932782AF1500051D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prasanna.LogInAndSignUp;
+				PRODUCT_NAME = LogInAndSignUp;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D4A8E2942782AF1500051D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prasanna.LogInAndSignUp;
+				PRODUCT_NAME = LogInAndSignUp;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4A8E2752782AF1300051D23 /* Build configuration list for PBXProject "LogInAndSignUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A8E28D2782AF1500051D23 /* Debug */,
+				D4A8E28E2782AF1500051D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4A8E28F2782AF1500051D23 /* Build configuration list for PBXNativeTarget "LogInAndSignUp (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A8E2902782AF1500051D23 /* Debug */,
+				D4A8E2912782AF1500051D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4A8E2922782AF1500051D23 /* Build configuration list for PBXNativeTarget "LogInAndSignUp (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A8E2932782AF1500051D23 /* Debug */,
+				D4A8E2942782AF1500051D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4A8E2722782AF1300051D23 /* Project object */;
+}

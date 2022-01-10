@@ -47,7 +47,7 @@ struct LStextFieldStyle: TextFieldStyle {
             .font(.custom("Oswald-Regular", size: 23))
             .padding(10)
             .frame(height: 50)
-            .LSBackGround(Color("LStextFieldColour"))
+            .background(Color("LStextFieldColour"))
             .cornerRadius(30)
             .foregroundColor(.white)
     }
@@ -62,7 +62,7 @@ struct LSCustomTextFieldForNumber: View {
                 .font(.custom("Oswald-Regular", size: 23))
                 .padding(.leading, 85)
                 .frame(height: 50)
-                .LSBackGround(Color("LStextFieldColour"))
+                .background(Color("LStextFieldColour"))
                 .cornerRadius(20)
                 .foregroundColor(.white)
             Button( action: {
@@ -72,7 +72,7 @@ struct LSCustomTextFieldForNumber: View {
                     .foregroundColor(.white)
                     .padding()
                     .frame(maxWidth: .infinity, alignment: .center)
-                    .LSBackGround(Color("LSContactCode"))
+                    .background(Color("LSContactCode"))
             }
             .frame(width: 80)
             .cornerRadius(30)

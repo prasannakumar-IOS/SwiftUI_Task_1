@@ -47,7 +47,7 @@ struct SignUpView: View {
                             .font(Font.system(size: 20, weight: .medium, design: .default))
                             .frame(width: 120, height: 50)
                             .foregroundColor(.white)
-                            .LSBackGround(Color("LSButtonColour"))
+                            .background(Color("LSButtonColour"))
                         
                     }.cornerRadius(20)
                     .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20))

@@ -92,7 +92,7 @@ struct ContentView: View {
                                 .font(Font.system(size: 20, weight: .medium, design: .default))
                                 .frame(width: 120, height: 50)
                                 .foregroundColor(.white)
-                                .LSBackGround(Color("LSButtonColour"))
+                                .background(Color("LSButtonColour"))
                             
                         }.cornerRadius(20)
                     }

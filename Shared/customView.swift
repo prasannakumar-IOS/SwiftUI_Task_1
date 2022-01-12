@@ -44,7 +44,8 @@ struct customRightView: View {
 struct LStextFieldStyle: TextFieldStyle {
     func _body(configuration: TextField<Self._Label>) -> some View {
         configuration
-            .font(.custom("Oswald-Regular", size: 23))
+            .padding()
+            .font(.custom("Oswald-Regular", size: 20))
             .padding(10)
             .frame(height: 50)
             .background(Color("LStextFieldColour"))
@@ -59,7 +60,8 @@ struct LSCustomTextFieldForNumber: View {
     var body: some View {
         ZStack(alignment: .leading) {
             TextField(placeHolder, text: $text)
-                .font(.custom("Oswald-Regular", size: 23))
+                .padding()
+                .font(.custom("Oswald-Regular", size: 20))
                 .padding(.leading, 85)
                 .frame(height: 50)
                 .background(Color("LStextFieldColour"))
